@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(238, 218, 232);
+    font-family: Helvetica, times, serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+body > header {
+    background-color:  rgb(199, 160, 188);
+    color: aliceblue;
+}
+
+body > header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.text {
+    font-family: 'Playpen Sans', Helvetica, sans-serif;
+}
+
+.navbutton{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article{
+    width: 70%;
+    margin:auto;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div{
+    width:80%;
+}
+
+h2{
+    text-align: center;
+    font-family: "Fredoka One", sans-serif;
+}
+
+h4{
+    text-align: center;
+    font-family: "Fredoka One", sans-serif;
+
+}
+form{
+    text-align: center;
+}
+
+#main-header{
+    display: flex;
+    height:11vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li{
+    padding: 10px;
+    margin: 16px;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li{
+    margin-left: 15px;
+}
+
+#footer-ul > div> li> a {
+    text-decoration: none;
+}
+
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+    text-align: center;
+    /*box-shadow:8px 8px 5px 5px rgb(80, 63, 76);
+    width:17%;*/
+}
+
+body > footer {
+    background-color:   rgb(199, 160, 188);
+    display: flex;
+}
+
+h1{
+    margin: 0px;
+    padding: 8px;
+}
+
+ul{
+    margin: 0px;
+}
+
+img{
+    border-radius: 10%;
+}
