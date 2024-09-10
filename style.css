@@ -1,112 +1,132 @@
-body{
-    background-color: rgb(238, 218, 232);
-    font-family: Helvetica, times, serif;
-    margin: 0px;
+/*HERE IS THE BODY SECTION */
+body {
+    margin:0px;
+    background-color: #c6e5d9 ;
     font-size: 1.5vw;
 }
 
-body > header {
-    background-color:  rgb(199, 160, 188);
-    color: aliceblue;
+body > h2 {
+    color:#e94e77;
 }
 
-body > header > nav > ul{
+/*HERE IS THE HEADER */
+header{
+    padding: 5px;
+    background-color: #d68189 ;
+    color: #c6e5d9 ;
+    text-align: center;
+}
+
+/*TOP NAVIGATION BAR*/
+#top-nav-bar > ul {
+    display: flex;
     list-style: none;
     text-decoration: none;
+    background-color: #c6a49a;
+    
+    margin:0px;
 }
 
-.text {
-    font-family: 'Playpen Sans', Helvetica, sans-serif;
-}
-
-.navbutton{
-    color: aliceblue;
+/*BOTTOM NAVIGATION BAR*/
+#bottom-nav-bar > ul {
+    list-style: none;
     text-decoration: none;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 10%;
+    background-color: #c6a49a;
+    margin:0px;
 }
 
-body > main article{
-    width: 70%;
-    margin:auto;
+/*FILTERS HERE*/
+#filters > section >h4{
+    color: #e94e77;
+}
+#filters > section > nav > ul > li{
+    color: #d68189;
 }
 
-#main-content{
+/*HERE IS THE INTRODUCTION SECTION*/
+#introduction {
+    color:#d68189;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#introduction > h1{
+    color:#e94e77;
+}
+
+/*HERE IS THE NEWS SECTION*/
+#news {
+    width: 80%;
+    margin: 0 auto;
+}
+#stories{
     display: flex;
-    justify-content: space-around;
+}
+#news > div > article > h3{
+    color:#e94e77;
 }
 
-#main-content > div{
-    width:80%;
+#news > h2{
+    color:#e94e77;
 }
 
-h2{
+#stories > article > p{
+    color:#d68189;
+}
+
+/*HERE IS THE VILLAGERS SECTION*/
+#villagers {
     text-align: center;
-    font-family: "Fredoka One", sans-serif;
-}
-
-h4{
-    text-align: center;
-    font-family: "Fredoka One", sans-serif;
-
-}
-form{
-    text-align: center;
-}
-
-#main-header{
-    display: flex;
-    height:11vh;
     align-items: center;
-    justify-content: space-around;
+    width: 80%;
+    margin: auto;
 }
 
-#nav-ul{
+#villagers > h2{
+    color:#e94e77;
+}
+
+#villagers> h3{
+    color:#d68189;
+}
+
+#villagers-buttons {
     display: flex;
+    display: grid;
+    margin: auto;
+    width: 30%;
+    grid-template-columns: repeat(2, 1fr);
 }
 
-#nav-ul > li{
-    padding: 10px;
-    margin: 16px;
+#villagers-buttons a {
+    display: block; 
 }
 
-#footer-ul {
-    display: flex;
-    list-style: none;
+
+
+#form > h4{
+    color:#e94e77;
 }
 
-#footer-ul > div > li{
-    margin-left: 15px;
+#form{
+    color:#d68189;
+}
+/*HOVER OVER VILLAGERS */
+.hover-enlarge {
+    transition: transform 0.3s ease; 
+    display: block; 
+}
+.hover-enlarge:hover {
+    transform: scale(1.2); 
 }
 
-#footer-ul > div> li> a {
-    text-decoration: none;
+/*FOOTER*/
+body > footer{
+    background-color: #d68189
 }
-
-#logo {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
+#copyright{
+    color: #c6e5d9 ;
     text-align: center;
-    /*box-shadow:8px 8px 5px 5px rgb(80, 63, 76);
-    width:17%;*/
 }
 
-body > footer {
-    background-color:   rgb(199, 160, 188);
-    display: flex;
-}
-
-h1{
-    margin: 0px;
-    padding: 8px;
-}
-
-ul{
-    margin: 0px;
-}
-
-img{
-    border-radius: 10%;
-}
