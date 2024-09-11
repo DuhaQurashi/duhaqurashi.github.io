@@ -12,78 +12,89 @@
     </header>
     <nav id="top-nav-bar">
         <ul>
-            <li><a href="" target="_blank">Home</a></li>
-            <li><a href="" target="_blank">Contact Us</a></li>
-            <li><a href="" target="_blank">About Us</a></li>
+            <li><a href="" target="_blank" class="hover-enlarge">Home</a></li>
+            <li><a href="" target="_blank" class="hover-enlarge">Contact Us</a></li>
+            <li><a href="" target="_blank" class="hover-enlarge">About Us</a></li>
         </ul>
     </nav>
-    <section id="introduction">
-        <h1>Your new favourite holiday destination</h1>
-        <p>
-            Welcome to Peach Tree Island—your dream getaway in Animal Crossing! Nestled in a vibrant archipelago, this tropical paradise offers a serene escape from the everyday hustle. Imagine strolling along pristine, sandy beaches, where the gentle waves kiss the shore and the sun casts a warm, golden glow. Our island features charming, handcrafted cottages surrounded by lush greenery and blooming orchards, ensuring a tranquil retreat.Discover our unique attractions: from the enchanting Peach Blossom Garden to the bustling Market Plaza, brimming with local goods and artisan crafts. Engage in exciting activities like fishing, bug catching, and diving in crystal-clear waters. Don't miss our seasonal festivals and special events that bring the island to life.Book your stay at Peach Tree Island and experience a slice of paradise like no other. Come unwind, explore, and make memories that will last a lifetime.
-        </p>
-    </section>
-    <section id="villagers">
-        <h2>Meet the Peach Tree Island Residents</h2>
-        <h3>Click on a villager to learn more about them</h3>
-        <!--LINKS TO PICS OF VILLAGERS GO HERE-->
-        <div id="villagers-buttons">
-            <a href="#" id="OpenPopupLinkBlanche">
-                <img src="blanche.png" alt="An image of Blanche" class="hover-enlarge">
-            </a>
-            <a href="#" id="OpenPopupLinkBlathers">
-                <img src="blathers.png" alt="An image of Blathers" class="hover-enlarge">
-            </a>
-            <a href="#" id="OpenPopupLinkKatt">
-                <img src="katt.png" alt="An image of Katt" class="hover-enlarge">
-            </a>
-            <a href="#" id="OpenPopupLinkTom">
-                <img src="tom.png" alt="An image of Tom" class="hover-enlarge">
-            </a>
+    <div id="main">
+        <div id="main-content">
+            <section id="introduction">
+                <h1>Your new favourite holiday destination</h1>
+                <p>
+                    Welcome to Peach Tree Island—your dream getaway in Animal Crossing! Nestled in a vibrant archipelago, this tropical paradise offers a serene escape from the everyday hustle. Imagine strolling along pristine, sandy beaches, where the gentle waves kiss the shore and the sun casts a warm, golden glow. Our island features charming, handcrafted cottages surrounded by lush greenery and blooming orchards, ensuring a tranquil retreat.Discover our unique attractions: from the enchanting Peach Blossom Garden to the bustling Market Plaza, brimming with local goods and artisan crafts. Engage in exciting activities like fishing, bug catching, and diving in crystal-clear waters. Don't miss our seasonal festivals and special events that bring the island to life.Book your stay at Peach Tree Island and experience a slice of paradise like no other. Come unwind, explore, and make memories that will last a lifetime.
+                </p>
+            </section>
+            <section id="villagers">
+                <h2>Meet the Peach Tree Island Residents</h2>
+                <h3>Click on a villager to learn more about them</h3>
+                <!--LINKS TO PICS OF VILLAGERS GO HERE-->
+                <div id="villagers-buttons">
+                    <a href="#" id="OpenPopupLinkBlanche">
+                        <img src="blanche.png" alt="An image of Blanche" class="hover-enlarge">
+                    </a>
+                    <a href="#" id="OpenPopupLinkBlathers">
+                        <img src="blathers.png" alt="An image of Blathers" class="hover-enlarge">
+                    </a>
+                    <a href="#" id="OpenPopupLinkKatt">
+                        <img src="katt.png" alt="An image of Katt" class="hover-enlarge">
+                    </a>
+                    <a href="#" id="OpenPopupLinkTom">
+                        <img src="tom.png" alt="An image of Tom" class="hover-enlarge">
+                    </a>
+                </div>
+                <script src="app.js"></script>
+            </section>
         </div>
-        <script src="app.js"></script>
-    </section>
+        <div id="filters-aside"></div>
+            <aside id="filters">
+                <section>
+                    <h4>Filter by price</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">100,000-250,000 Bells</a></li>
+                            <li><a href="">250,000-500,000 Bells</a></li>
+                            <li><a href="">500,000-750,000 Bells</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <section>
+                    <h4>Filter by tourist attractions</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="">Able Sisters shop</a></li>
+                            <li><a href="">Peach Tree Island Museum</a></li>
+                            <li><a href="">Nook's Cranny</a></li>
+                            <li><a href="">K.K Slider Concert</a></li>
+                        </ul>
+                    </nav>
+                </section>
+            </aside>
+        </div>
+    </div>
+    <br>
+    <hr>
     <section id="news">
         <h2>Peach Tree Island News</h2>
         <div id="stories">
-            <article >
+            <article id="TimmyTommy">
                 <h3>Scandal Strikes Nook's Cranny! Timmy and Tommy Caught Embezzling Funds </h3>
-                    <p>
+                <img src="Timmy&Tommy.jpeg" alt="An Image of the culprits Timmy and Tommy">
+                <p>
                         In a shocking turn of events, Timmy and Tommy Nook, the beloved nephews of notorious real estate mogul Tom Nook, have been implicated in a high-profile embezzlement scandal. Reports reveal the duo has been siphoning off substantial sums from their uncle's shop, Nook's Cranny, for months. As the island reels from the news, Tom Nook remains tight-lipped, sparking rumors of deeper financial shenanigans. Stay tuned for updates on this unfolding drama in the Animal Crossing world.
-                    </p>
+                </p>
             </article>
-            <article>
+            <article id="FakeArt">
                 <h3>Art Fraud Frenzy! Villagers Caught Selling Fake Masterpieces</h3>
-                    <p>
+                <img src="FakeArt.jpeg" alt="An image from report">
+                <p>
                         In a startling revelation, several island villagers have been exposed for orchestrating a massive art scam. Authorities have uncovered that residents were purchasing counterfeit artworks from the notorious Redd’s shady ship docked at the island’s northern shore and then selling these fakes to Blathers at the museum. This deceptive scheme has led to an influx of dubious art in the museum’s exhibits. Blathers is reportedly devastated by the breach, promising a thorough investigation. Stay tuned for more details as the community grapples with this artistic betrayal!
-                    </p>
+                </p>
             </article>
         </div>
     </section>
-    <aside id="filters">
-        <section>
-            <h4>Filter by price</h4>
-            <nav>
-                <ul>
-                    <li><a href="">100,000-250,000 Bells</a></li>
-                    <li><a href="">250,000-500,000 Bells</a></li>
-                    <li><a href="">500,000-750,000 Bells</a></li>
-                </ul>
-            </nav>
-        </section>
-        <section>
-            <h4>Filter by tourist attractions</h4>
-            <nav>
-                <ul>
-                    <li><a href="">Able Sisters shop</a></li>
-                    <li><a href="">Peach Tree Island Museum</a></li>
-                    <li><a href="">Nook's Cranny</a></li>
-                    <li><a href="">K.K Slider Concert</a></li>
-                </ul>
-            </nav>
-        </section>
-    </aside>
     <!--HERE IS THE FORM-->
+    <hr>
     <h2>Get in contact with our travel agent now!</h2>
     <form action="" method="" id="form">
             <label for="first_name">First Name:</label>
@@ -140,11 +151,15 @@
         <nav id="bottom-nav-bar">
             <ul>
                 <!--ADD LINKS HERE IN THE FIRST QUOTATION MARKS-->
-                <li><a href="" target="_blank">Home</a></li>
-                <li><a href="" target="_blank">About Peach Tree Island</a></li>
-                <li><a href="" target="_blank">Booking Fees </a></li>
-                <li><a href="" target="_blank">Cookies Policy</a></li>
-                <li><a href="" target="_blank">Terms & Conditions</a></li>
+                <div>
+                    <li><a href="" target="_blank" class="hover-enlarge">Home</a></li>
+                    <li><a href="" target="_blank" class="hover-enlarge">About Peach Tree Island</a></li>
+                    <li><a href="" target="_blank" class="hover-enlarge">Booking Fees </a></li>
+                </div>
+                <div>
+                    <li><a href="" target="_blank" class="hover-enlarge">Cookies Policy</a></li>
+                    <li><a href="" target="_blank" class="hover-enlarge">Terms & Conditions</a></li>
+                </div>
             </ul>
         </nav>
         <div id="copyright">
