@@ -2,7 +2,8 @@
 body {
     margin:0px;
     background-color: #c6e5d9 ;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+    font-family: 'Playpen Sans', Helvetica, sans-serif;
 }
 
 body > h2 {
@@ -16,6 +17,8 @@ body > h2 {
 
 /*HERE IS THE HEADER */
 header{
+    display: flex;
+    justify-content: space-around;
     padding: 5px;
     background-color: #d68189 ;
     color: #c6e5d9 ;
@@ -39,7 +42,7 @@ header{
     display: block;
     color: #c6e5d9;
     text-decoration: none; 
-    margin: 3px;
+    margin: auto;
 }
 
 /*BOTTOM NAVIGATION BAR*/
@@ -76,6 +79,7 @@ header{
 #filters > section > h4 {
     color: #e94e77;
     margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 #filters > section > nav > ul {
@@ -83,9 +87,13 @@ header{
     margin: 0; 
 }
 
-#filters > section > nav > ul > li {
+#filters > section > nav  {
     color: #d68189;
     margin-bottom: 0.5vh; 
+}
+
+#filters > section > nav > ul > li{
+    list-style: none;
 }
 
 #filters > section > nav > ul > li > a:hover {
@@ -95,6 +103,10 @@ header{
 #filters > section > nav > ul > li > a {
     text-decoration: none;
     color: #d68189; 
+}
+
+#nooklings{
+    margin-right: 2rem;
 }
 
 /*HERE IS THE INTRODUCTION SECTION*/
@@ -114,17 +126,23 @@ header{
     width: 80%;
     margin: 0 auto;
     justify-content: space-around;
+    list-style: none;
 }
 #stories{
     display: flex;
+    margin : auto;
+    justify-content: space-around;
 }
+
 #news > div > article > h3{
     color:#e94e77;
+    
 }
 
 #news > h2{
     color:#e94e77;
     text-align: center;
+    
 }
 
 #stories > article > p{
@@ -132,18 +150,55 @@ header{
     justify-content: space-between;
 }
 
-#FakeArt > img{
-    width: 78%;
-    margin: auto;
-    border-radius: 7%;
-    margin-left: 0.5rem;
+#TimmyTommy > a > h3{
+    color:#e94e77;
+    text-decoration: none;
 }
 
-#TimmyTommy > img{
+#FakeArt > a > h3{
+    color:#e94e77;
+    text-decoration: none;
+}
+
+#FakeArt > img{
     width: 90%;
     margin: auto;
     border-radius: 7%;
 }
+
+#TimmyTommy > img{
+    width: 90%;
+    border-radius: 7%;
+    text-align: center;
+}
+
+#TimmyTommy{
+    margin: 2rem;
+    text-align: center;
+    width: 40%;
+}
+
+
+#TimmyTommy > a {
+    text-decoration: none;
+}
+
+#stories > article:hover{
+    border: solid #d68189;
+    border-radius: 7%;
+    box-shadow:8px 8px 5px 5px #d68189;
+}
+
+#FakeArt {
+    margin : 2rem;
+    text-align: center;
+    width: 40%;
+}
+
+#FakeArt > a {
+    text-decoration: none;
+}
+
 
 /*HERE IS THE VILLAGERS SECTION*/
 #villagers {
@@ -198,13 +253,13 @@ body > h2{
     text-align: center;
 }
 
-/*HOVER OVER VILLAGERS */
+/*HOVER OVER ITEMS AND TEXT */
 .hover-enlarge {
     transition: transform 0.3s ease; 
     display: block; 
 }
 .hover-enlarge:hover {
-    transform: scale(1.2); 
+    transform: scale(1.1); 
 }
 
 /*FOOTER*/

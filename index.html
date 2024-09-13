@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peach Tree Island</title>
 </head>
 <body>
     <header>
-        <h1>Peach Tree Island</h1>
+        <h1 >Peach Tree Island </h1>
     </header>
     <nav id="top-nav-bar">
         <ul>
@@ -30,16 +31,16 @@
                 <h3>Click on a villager to learn more about them</h3>
                 <!--LINKS TO PICS OF VILLAGERS GO HERE-->
                 <div id="villagers-buttons">
-                    <a href="#" id="OpenPopupLinkBlanche">
+                    <a href="" id="OpenPopupLinkBlanche">
                         <img src="blanche.png" alt="An image of Blanche" class="hover-enlarge">
                     </a>
-                    <a href="#" id="OpenPopupLinkBlathers">
+                    <a href="" id="OpenPopupLinkBlathers">
                         <img src="blathers.png" alt="An image of Blathers" class="hover-enlarge">
                     </a>
-                    <a href="#" id="OpenPopupLinkKatt">
+                    <a href="" id="OpenPopupLinkKatt">
                         <img src="katt.png" alt="An image of Katt" class="hover-enlarge">
                     </a>
-                    <a href="#" id="OpenPopupLinkTom">
+                    <a href="" id="OpenPopupLinkTom">
                         <img src="tom.png" alt="An image of Tom" class="hover-enlarge">
                     </a>
                 </div>
@@ -48,27 +49,29 @@
         </div>
         <div id="filters-aside"></div>
             <aside id="filters">
-                <section>
+                <section id="prices">
                     <h4>Filter by price</h4>
                     <nav>
                         <ul>
-                            <li><a href="">100,000-250,000 Bells</a></li>
-                            <li><a href="">250,000-500,000 Bells</a></li>
-                            <li><a href="">500,000-750,000 Bells</a></li>
+                            <li><a href="" class="hover-enlarge" >100,000-250,000 Bells</a></li>
+                            <li><a href="" class="hover-enlarge" >250,000-500,000 Bells</a></li>
+                            <li><a href="" class="hover-enlarge" >500,000-750,000 Bells</a></li>
                         </ul>
                     </nav>
                 </section>
-                <section>
+                <section id="locations">
                     <h4>Filter by tourist attractions</h4>
                     <nav>
                         <ul>
-                            <li><a href="">Able Sisters shop</a></li>
-                            <li><a href="">Peach Tree Island Museum</a></li>
-                            <li><a href="">Nook's Cranny</a></li>
-                            <li><a href="">K.K Slider Concert</a></li>
+                            <li><a href="" class="hover-enlarge" >Able Sisters shop</a></li>
+                            <li><a href="" class="hover-enlarge" >Peach Tree Island Museum</a></li>
+                            <li><a href="" class="hover-enlarge" >Nook's Cranny</a></li>
+                            <li><a href="" class="hover-enlarge" >K.K Slider Concert</a></li>
                         </ul>
                     </nav>
                 </section>
+                <br>
+                <img src="tt.png" alt="An Image of the Nooklings" id="nooklings">
             </aside>
         </div>
     </div>
@@ -77,16 +80,18 @@
     <section id="news">
         <h2>Peach Tree Island News</h2>
         <div id="stories">
-            <article id="TimmyTommy">
-                <h3>Scandal Strikes Nook's Cranny! Timmy and Tommy Caught Embezzling Funds </h3>
-                <img src="Timmy&Tommy.jpeg" alt="An Image of the culprits Timmy and Tommy">
+            <article id="TimmyTommy"   class="hover-enlarge">
+                <a href="">
+                    <h3>Scandal Strikes Nook's Cranny! Timmy and Tommy Caught Embezzling Funds </h3>
+                </a>
+                <img src="Timmy&Tommy.jpeg" alt="An Image of the culprits Timmy and Tommy" >
                 <p>
                         In a shocking turn of events, Timmy and Tommy Nook, the beloved nephews of notorious real estate mogul Tom Nook, have been implicated in a high-profile embezzlement scandal. Reports reveal the duo has been siphoning off substantial sums from their uncle's shop, Nook's Cranny, for months. As the island reels from the news, Tom Nook remains tight-lipped, sparking rumors of deeper financial shenanigans. Stay tuned for updates on this unfolding drama in the Animal Crossing world.
                 </p>
             </article>
-            <article id="FakeArt">
-                <h3>Art Fraud Frenzy! Villagers Caught Selling Fake Masterpieces</h3>
-                <img src="FakeArt.jpeg" alt="An image from report">
+            <article id="FakeArt"  class="hover-enlarge">
+                <a href=""><h3 >Art Fraud Frenzy! Villagers Caught Selling Fake Masterpieces</h3> </a>
+                <img src="FakeArt.jpeg" alt="An image from report"> </a>
                 <p>
                         In a startling revelation, several island villagers have been exposed for orchestrating a massive art scam. Authorities have uncovered that residents were purchasing counterfeit artworks from the notorious Redd’s shady ship docked at the island’s northern shore and then selling these fakes to Blathers at the museum. This deceptive scheme has led to an influx of dubious art in the museum’s exhibits. Blathers is reportedly devastated by the breach, promising a thorough investigation. Stay tuned for more details as the community grapples with this artistic betrayal!
                 </p>
@@ -128,12 +133,15 @@
             <select name="transport" id="transport">
                 <option value="yes">Yes</option>
                 <option value="no">No Way</option>
-                <option value="dodo">Dodo like the bird</option>
+                <option value="dodo">Dodo like the bird?</option>
             </select>
             <br>
 
             <label for="notes">Please let us know of any allegries to animals:</label>
-            <textarea name="notes" id="notes" cols="25" rows="5"></textarea>
+            <textarea name="notes" id="notes" cols="20" rows="5"></textarea>
+            <br>
+
+            <img src="wilbur.png" alt="An image of our Pilot Wilbur">
 
             <br>
 
@@ -163,7 +171,7 @@
             </ul>
         </nav>
         <div id="copyright">
-            &copy; 2024 Duha Qurashi- Island Representative 2024
+            &copy; Duha Qurashi Island Representative 2024
         </div>
     </footer>
 </body>
